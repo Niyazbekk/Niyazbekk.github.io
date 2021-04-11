@@ -26,6 +26,7 @@
 .pic {
   height: 293px;
   width: 293px;
+  outline: 2px solid #000;
   /*background-color: #7401DF;*/
 }
 img {

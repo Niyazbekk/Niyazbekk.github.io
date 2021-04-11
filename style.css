@@ -1,0 +1,15 @@
+li {
+  color: green; /* Изменение цвета */
+  display: inline; /* Горизонтальный список */
+  list-style-type: none; /* Удаление маркировки */
+  font-family: 'Train One', cursive;
+}
+.astana {
+  color: red;
+}
+.kz {
+  font-size: 40px;
+}
+#lenovo {
+  color: purple;
+}

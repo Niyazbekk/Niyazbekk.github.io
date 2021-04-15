@@ -33,3 +33,29 @@ img {
   width: 100%;
   height: 100%;
 }
+.Hpics {
+  height: 77px;
+  width: 77px;
+  border-radius: 77px; /* Радиус скругления */
+  border: 3px solid;
+}
+.histories {
+  margin: 0 auto;
+  height: 130px;
+  width: 935px;
+  display: flex;
+  justify-content: flex-start;
+}
+.histPic {
+  margin-right: 10px;
+}
+.TitleHist {
+  margin-top : 15px;
+}
+.Titl {
+  background: blue;
+  height: 33px;
+  width: 85px;
+  margin: 0 auto;
+  justify-content: center;
+}

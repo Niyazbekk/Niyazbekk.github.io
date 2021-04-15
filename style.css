@@ -8,8 +8,8 @@
   height: 53px;
   width: 935px;
   /*background-color: blue;*/
-  display: flex;
-  justify-content: center;
+  display: flex; /* flex box On */
+  justify-content: center; /* Приведение к центру */
 }
 .Sections {
   /*background-color: red;*/
@@ -33,14 +33,14 @@ img {
   width: 100%;
   height: 100%;
 }
-.Hpics {
+.Hpics img {
   height: 77px;
   width: 77px;
-  border-radius: 77px; /* Радиус скругления */
-  border: 3px solid;
+  border-radius: 50%; /* Радиус скругления */
+
 }
 .histories {
-  margin: 0 auto;
+  margin: 0 auto; /* Отступ */
   height: 130px;
   width: 935px;
   display: flex;
@@ -51,11 +51,55 @@ img {
 }
 .TitleHist {
   margin-top : 15px;
+  display: flex;
+  justify-content: center;
 }
-.Titl {
+.Titl p{
   background: blue;
   height: 33px;
   width: 85px;
-  margin: 0 auto;
-  justify-content: center;
+}
+.User {
+  margin: 0 auto; /* Отступ */
+  height: 150px;
+  width: 935px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 44px;
+}
+.UserStats{
+
+}
+.Avatar {
+  margin-right: 30px;
+  height: 150px;
+  width: 292px;
+}
+.Avatar img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; /* Радиус скругления */
+}
+.UserName{
+  display: flex;
+  width: 614px;
+  height: 30px;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+.UserName h2 {
+  margin-right: 30px;
+}
+.Subs span {
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.UserStats {
+  width: 614px;
+  height: 18px;
+  margin-bottom: 20px;
+}
+.UserText {
+  width: 614px;
+  height: 48px;
 }

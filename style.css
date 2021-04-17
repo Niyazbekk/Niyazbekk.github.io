@@ -4,16 +4,25 @@
   /*background-color: #01DF3A; /* Цвет фона */
   margin: 0 auto; /* Отступ */
 }
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
 .Pub {
   height: 53px;
   width: 935px;
   /*background-color: blue;*/
   display: flex; /* flex box On */
   justify-content: center; /* Приведение к центру */
+  border-top: 1px solid #dbdbdb;
 }
 .Sections {
   /*background-color: red;*/
   margin-right: 28px;
+  display: flex;
+  align-items: center;  /* выравнивание по центру элементов */
+}
+.Sections span{
+  margin-top: 0 auto;
 }
 .picsLine {
   height: 293px;
@@ -26,7 +35,7 @@
 .pic {
   height: 293px;
   width: 293px;
-  outline: 2px solid #000;
+  border: 2px solid #000; /* Рамки изображения */
   /*background-color: #7401DF;*/
 }
 img {
@@ -37,6 +46,8 @@ img {
   height: 77px;
   width: 77px;
   border-radius: 50%; /* Радиус скругления */
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid ;
 
 }
 .histories {
@@ -48,6 +59,7 @@ img {
 }
 .histPic {
   margin-right: 10px;
+  padding: 10px 15px; /* Поле вокруг объекта */
 }
 .TitleHist {
   margin-top : 15px;
@@ -67,18 +79,23 @@ img {
   justify-content: flex-start;
   margin-bottom: 44px;
 }
-.UserStats{
-
+.Subs {
+  margin-bottom: 20px;
 }
 .Avatar {
   margin-right: 30px;
   height: 150px;
   width: 292px;
+  display: flex;
+  justify-content: center;
 }
 .Avatar img {
   height: 150px;
   width: 150px;
   border-radius: 50%; /* Радиус скругления */
+  margin: 0;
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid ;
 }
 .UserName{
   display: flex;
@@ -88,7 +105,12 @@ img {
   flex-direction: row;
 }
 .UserName h2 {
-  margin-right: 30px;
+  margin-right: 10px;
+  font-weight: 100;
+}
+.UserName span img {
+  width: 18px;
+  height: 18px;
 }
 .Subs span {
   margin-right: 20px;
@@ -102,4 +124,33 @@ img {
 .UserText {
   width: 614px;
   height: 48px;
+}
+.UserText a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #00376b;
+}
+button {
+  margin-left: 18px;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+}
+li {
+  width: 24px;
+  height: 130px;
+  list-style: none;
+}
+.Header {
+  display: flex ;
+  width: 100%;
+  height: 54px;
+  position: fixed; /* Закрепить на экране */
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: center;
+}
+.HeaderCenter {
+  display: flex;
+  flex-direction: row;
 }

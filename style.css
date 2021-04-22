@@ -1,8 +1,15 @@
+body {
+  display: flex;
+}
+.InstagramMain {
+  margin: 0 auto;
+  padding: 30px 20px 0px;
+}
 .pics {
   height: 700px; /* Высота */
   width: 935px; /* Ширина */
+  margin-top: auto;
   /*background-color: #01DF3A; /* Цвет фона */
-  margin: 0 auto; /* Отступ */
 }
 a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
@@ -42,6 +49,10 @@ img {
   width: 100%;
   height: 100%;
 }
+.Hpics {
+  display: flex;
+  justify-content: center;
+}
 .Hpics img {
   height: 77px;
   width: 77px;
@@ -51,18 +62,20 @@ img {
 
 }
 .histories {
-  margin: 0 auto; /* Отступ */
   height: 130px;
   width: 935px;
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 44px;
 }
 .histPic {
-  margin-right: 10px;
-  padding: 10px 15px; /* Поле вокруг объекта */
+
+  padding: 10px 15px;
+  margin-right: 10px; /* Поле вокруг объекта */
+  width: 125px;
+  height: 130px;
 }
 .TitleHist {
-  margin-top : 15px;
   display: flex;
   justify-content: center;
 }
@@ -72,12 +85,12 @@ img {
   width: 85px;
 }
 .User {
-  margin: 0 auto; /* Отступ */
   height: 150px;
   width: 935px;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 44px;
+  margin-top: 54px;
 }
 .Subs {
   margin-bottom: 20px;
@@ -103,9 +116,13 @@ img {
   height: 30px;
   margin-bottom: 20px;
   flex-direction: row;
+
 }
 .UserName h2 {
-  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 49.55px;
+  height: 32px;
   font-weight: 100;
 }
 .UserName span img {
@@ -117,13 +134,16 @@ img {
   margin-bottom: 40px;
 }
 .UserStats {
-  width: 614px;
-  height: 18px;
+  width: 613.3px;
+  height: 150px;
   margin-bottom: 20px;
 }
 .UserText {
   width: 614px;
   height: 48px;
+}
+h3 {
+  margin: 0px 0px;
 }
 .UserText a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
@@ -149,8 +169,50 @@ li {
   background-color: #fff;
   border-bottom: 1px solid #dbdbdb;
   justify-content: center;
+
 }
 .HeaderCenter {
   display: flex;
   flex-direction: row;
+  align-items: center; /* Выравнивание по центру элементов контейнера */
 }
+.IntagramTitle {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+}
+.loginField {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.button-Sub{
+  margin-left: 20px;
+}
+.login {
+  width: 223.22px;
+  height: 36px;
+}
+.login span {
+  width: 223.22px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.login button {
+  width: 59.7px;
+  height: 30px;
+}
+.login span a {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #0095f6;
+}
+.imgInst {
+  margin-top: 7px;
+  width: 103px;
+  height: 29px;
+}
+.SearchField

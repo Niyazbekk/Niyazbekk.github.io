@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .pics {
   height: 700px; /* Высота */
   width: 935px; /* Ширина */
@@ -59,3 +60,39 @@ img {
   margin: 0 auto;
   justify-content: center;
 }
+=======
+.pics {
+  height: 700px; /* Высота */
+  width: 935px; /* Ширина */
+  /*background-color: #01DF3A; /* Цвет фона */
+  margin: 0 auto; /* Отступ */
+}
+.Pub {
+  height: 53px;
+  width: 935px;
+  /*background-color: blue;*/
+  display: flex;
+  justify-content: center;
+}
+.Sections {
+  /*background-color: red;*/
+  margin-right: 28px;
+}
+.picsLine {
+  height: 293px;
+  width: 935px;
+  /*background-color: #B45F04;*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.pic {
+  height: 293px;
+  width: 293px;
+  /*background-color: #7401DF;*/
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+>>>>>>> 4328e911572cc51909532b02550958f63fec2a8e

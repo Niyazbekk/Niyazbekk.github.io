@@ -1,16 +1,218 @@
-li {
-  color: green; /* Изменение цвета */
-  display: inline; /* Горизонтальный список */
-  list-style-type: none; /* Удаление маркировки */
-  font-family: 'Train One', cursive;
+body {
+  display: flex;
 }
-.astana {
-  color: red;
+.InstagramMain {
+  margin: 0 auto;
+  padding: 30px 20px 0px;
 }
-.kz {
-  font-size: 40px;
+.pics {
+  height: 700px; /* Высота */
+  width: 935px; /* Ширина */
+  margin-top: auto;
+  /*background-color: #01DF3A; /* Цвет фона */
+}
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.Pub {
+  height: 53px;
+  width: 935px;
+  /*background-color: blue;*/
+  display: flex; /* flex box On */
+  justify-content: center; /* Приведение к центру */
+  border-top: 1px solid #dbdbdb;
+}
+.Sections {
+  /*background-color: red;*/
+  margin-right: 28px;
+  display: flex;
+  align-items: center;  /* выравнивание по центру элементов */
+}
+.Sections span{
+  margin-top: 0 auto;
+}
+.picsLine {
+  height: 293px;
+  width: 935px;
+  /*background-color: #B45F04;*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.pic {
+  height: 293px;
+  width: 293px;
+  border: 2px solid #000; /* Рамки изображения */
+  /*background-color: #7401DF;*/
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.Hpics {
+  display: flex;
+  justify-content: center;
+}
+.Hpics img {
+  height: 77px;
+  width: 77px;
+  border-radius: 50%; /* Радиус скругления */
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid ;
+
+}
+.histories {
+  height: 130px;
+  width: 935px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 44px;
+}
+.histPic {
+
+  padding: 10px 15px;
+  margin-right: 10px; /* Поле вокруг объекта */
+  width: 125px;
+  height: 130px;
+}
+.TitleHist {
+  display: flex;
+  justify-content: center;
+}
+.Titl p{
+  background: blue;
+  height: 33px;
+  width: 85px;
+}
+.User {
+  height: 150px;
+  width: 935px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 44px;
+  margin-top: 54px;
+}
+.Subs {
+  margin-bottom: 20px;
+}
+.Avatar {
+  margin-right: 30px;
+  height: 150px;
+  width: 292px;
+  display: flex;
+  justify-content: center;
+}
+.Avatar img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; /* Радиус скругления */
+  margin: 0;
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid ;
+}
+.UserName{
+  display: flex;
+  width: 614px;
+  height: 30px;
+  margin-bottom: 20px;
+  flex-direction: row;
+
+}
+.UserName h2 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 49.55px;
+  height: 32px;
   font-weight: 100;
 }
-#lenovo {
-  color: purple;
+.UserName span img {
+  width: 18px;
+  height: 18px;
 }
+.Subs span {
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.UserStats {
+  width: 613.3px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.UserText {
+  width: 614px;
+  height: 48px;
+}
+h3 {
+  margin: 0px 0px;
+}
+.UserText a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #00376b;
+}
+button {
+  margin-left: 18px;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+}
+li {
+  width: 24px;
+  height: 130px;
+  list-style: none;
+}
+.Header {
+  display: flex ;
+  width: 100%;
+  height: 54px;
+  position: fixed; /* Закрепить на экране */
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: center;
+
+}
+.HeaderCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Выравнивание по центру элементов контейнера */
+}
+.IntagramTitle {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+}
+.loginField {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.button-Sub{
+  margin-left: 20px;
+}
+.login {
+  width: 223.22px;
+  height: 36px;
+}
+.login span {
+  width: 223.22px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.login button {
+  width: 59.7px;
+  height: 30px;
+}
+.login span a {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #0095f6;
+}
+.imgInst {
+  margin-top: 7px;
+  width: 103px;
+  height: 29px;
+}
+.SearchField

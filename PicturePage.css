@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  background-color: #fafafa;
+}
+.allPage {
+  margin: 0 auto;
+  width: 975px;
+  height: 1764.94px;
+  padding: 38.76px 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.pictureContainer {
+  width: 816px;
+  height: 601.06px;
+  display: flex;
+  flex-direction: row;
+}
+.titlesPic {
+  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+
+}
+.pictureU {
+  width: 479px;
+  height: 597.42px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.headerU {
+  height: 56px;
+  padding: 16px;
+  display: flex;
+  border-bottom: 0.5px solid #efefef;;
+  align-items: center;
+}
+.imgUser {
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+.imgUser img {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%; /* Радиус скругления */
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid;
+}
+.username {
+  width: 256px;
+  height: 26px;
+  display: flex;
+}
+.username img {
+  width: 12px;
+  height: 12px;
+}
+.username span {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+p {
+  margin: 0;
+}
+.titleUser {
+  width: 145.64px;
+  height: 22px;
+  display: flex;
+  padding: 2px;
+  margin-left: 14px;
+}
+button {
+  color: #0095f6;
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent; /* Прозрачный фон */
+}
+.userComment {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.titleUser span {
+  margin-left: 2px;
+  margin-right: 4px;
+}
+span img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+.nameAndIcon {
+  height: 18px;
+  display: flex;
+  margin: 0;
+}
+
+.Com {
+  display: inline-block;
+}
+.tme {
+  margin-top: 20px;
+  color: #8e8e8e;
+}
+.plusIcon {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.plusIcon img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%; /* Радиус скругления */
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid;
+}

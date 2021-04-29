@@ -1,7 +1,8 @@
 body {
   display: flex;
+  flex-direction: column;
 }
-.InstagramMain {
+.instagramMain {
   margin: 0 auto;
   padding: 30px 20px 0px;
 }
@@ -14,7 +15,7 @@ body {
 a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
-.Pub {
+.pub {
   height: 53px;
   width: 935px;
   /*background-color: blue;*/
@@ -22,13 +23,13 @@ a {
   justify-content: center; /* Приведение к центру */
   border-top: 1px solid #dbdbdb;
 }
-.Sections {
+.sections {
   /*background-color: red;*/
   margin-right: 28px;
   display: flex;
   align-items: center;  /* выравнивание по центру элементов */
 }
-.Sections span{
+.sections span{
   margin-top: 0 auto;
 }
 .picsLine {
@@ -49,11 +50,11 @@ img {
   width: 100%;
   height: 100%;
 }
-.Hpics {
+.hpics {
   display: flex;
   justify-content: center;
 }
-.Hpics img {
+.hpics img {
   height: 77px;
   width: 77px;
   border-radius: 50%; /* Радиус скругления */
@@ -75,16 +76,16 @@ img {
   width: 125px;
   height: 130px;
 }
-.TitleHist {
+.titleHist {
   display: flex;
   justify-content: center;
 }
-.Titl p{
+.titl p{
   background: blue;
   height: 33px;
   width: 85px;
 }
-.User {
+.user {
   height: 150px;
   width: 935px;
   display: flex;
@@ -92,17 +93,17 @@ img {
   margin-bottom: 44px;
   margin-top: 54px;
 }
-.Subs {
+.subs {
   margin-bottom: 20px;
 }
-.Avatar {
+.avatar {
   margin-right: 30px;
   height: 150px;
   width: 292px;
   display: flex;
   justify-content: center;
 }
-.Avatar img {
+.avatar img {
   height: 150px;
   width: 150px;
   border-radius: 50%; /* Радиус скругления */
@@ -110,7 +111,7 @@ img {
   padding: 2px; /* Поле вокруг объекта */
   border: 2px solid ;
 }
-.UserName{
+.userName{
   display: flex;
   width: 614px;
   height: 30px;
@@ -118,34 +119,34 @@ img {
   flex-direction: row;
 
 }
-.UserName h2 {
+.userName h2 {
   margin-top: 0;
   margin-bottom: 0px;
   width: 49.55px;
   height: 32px;
   font-weight: 100;
 }
-.UserName span img {
+.userName span img {
   width: 18px;
   height: 18px;
 }
-.Subs span {
+.subs span {
   margin-right: 20px;
   margin-bottom: 40px;
 }
-.UserStats {
+.userStats {
   width: 613.3px;
   height: 150px;
   margin-bottom: 20px;
 }
-.UserText {
+.userText {
   width: 614px;
   height: 48px;
 }
 h3 {
   margin: 0px 0px;
 }
-.UserText a {
+.userText a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #00376b;
 }
@@ -161,7 +162,7 @@ li {
   height: 130px;
   list-style: none;
 }
-.Header {
+.header {
   display: flex ;
   width: 100%;
   height: 54px;
@@ -171,12 +172,12 @@ li {
   justify-content: center;
 
 }
-.HeaderCenter {
+.headerCenter {
   display: flex;
   flex-direction: row;
   align-items: center; /* Выравнивание по центру элементов контейнера */
 }
-.IntagramTitle {
+.intagramTitle {
   width: 360px;
   height: 36px;
   display: flex;
@@ -215,4 +216,13 @@ li {
   width: 103px;
   height: 29px;
 }
-.SearchField
+.footer {
+  display: flex ;
+  width: 100%;
+  height: 112px;
+  position: fixed; /* Закрепить на экране */
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: center;
+  background-color: red;
+}

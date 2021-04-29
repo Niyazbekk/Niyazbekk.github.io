@@ -217,7 +217,6 @@ li {
   height: 29px;
 }
 .footer {
-  
   display: flex ;
   width: 100%;
   height: 112px;
@@ -226,4 +225,16 @@ li {
   border-bottom: 1px solid #dbdbdb;
   justify-content: center;
   background-color: red;
+}
+.instagramPicture {
+  width: 56px;
+  height: 56px;
+
+}
+.instagramPicture img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%; /* Радиус скругления */
+  padding: 2px; /* Поле вокруг объекта */
+  border: 2px solid ;
 }

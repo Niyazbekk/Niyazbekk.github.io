@@ -1,12 +1,13 @@
 body {
+  margin: 0 auto;
   display: flex;
   background-color: #fafafa;
+  flex-direction: column;
 }
 .allPage {
   margin: 0 auto;
-  width: 975px;
-  height: 1764.94px;
   padding: 38.76px 20px 0px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -79,10 +80,10 @@ button {
   background: transparent; /* Прозрачный фон */
 }
 .userComment {
-  height: 88px;
   display: flex;
   align-items: center;
   padding: 16px;
+  margin-bottom: 25px;
 }
 .titleUser span {
   margin-left: 2px;
@@ -103,8 +104,13 @@ span img {
   display: inline-block;
 }
 .tme {
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
   color: #8e8e8e;
+}
+#Otvet {
+  margin-left: 20px;
 }
 .plusIcon {
   height: 40px;
@@ -117,4 +123,124 @@ span img {
   border-radius: 50%; /* Радиус скругления */
   padding: 2px; /* Поле вокруг объекта */
   border: 2px solid;
+}
+.header {
+  display: flex ;
+  width: 100%;
+  height: 54px;
+  position: fixed; /* Закрепить на экране */
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: center;
+
+}
+.headerCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Выравнивание по центру элементов контейнера */
+}
+.intagramTitle {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+}
+.loginField {
+  width: 360px;
+  height: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.button-Sub{
+  margin-left: 20px;
+}
+.login {
+  width: 223.22px;
+  height: 36px;
+}
+.login span {
+  width: 223.22px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.login button {
+  width: 59.7px;
+  height: 30px;
+  margin-left: 18px;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+}
+.login span a {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #0095f6;
+}
+.imgInst {
+  margin-top: 7px;
+  width: 103px;
+  height: 29px;
+}
+.footer {
+  display: flex ;
+  width: 100%;
+  height: 121px;
+  position: fixed; /* Закрепить на экране */
+  background-color: #323232;
+  justify-content: center;
+  left: 0; bottom: 0; /* Левый нижний угол */
+  border-top: 1px solid #dbdbdb;
+  backdrop-filter: blur(10px);
+  opacity: 0.95;
+}
+
+.instagramPicture {
+
+}
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #00376b;
+}
+.instagramPicture img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%; /* Радиус скругления */
+}
+.footerCenter {
+  width: 100%;
+  margin: 20px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.textInst {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.textInst :first-child {
+  margin-bottom: 12px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.foot a {
+  margin-top: 12px;
+  padding: 0 8px;
+}
+.foot button{
+  width: 149px;
+  height: 30px;
+  padding: 5px 9px;
+  margin: 0;
+}
+.imgButt {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }

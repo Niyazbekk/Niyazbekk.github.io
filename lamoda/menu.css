@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  margin: 0;
+}
+li {
+  margin: 0;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.somecat {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+img {
+  width: 700px;
+  height: 800px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right: 15px;
+  list-style: none;
+}
+li:hover {
+  color: #FF9933;
+}
+.spisok2 {
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+}
+li:hover .spisok2{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: black;
+}
+.spisok2 li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

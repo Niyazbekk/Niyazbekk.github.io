@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lamoda</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="lamoda.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="header">
-      <div class="location">
-        <img src="images/sent.png" alt="">
-        <p>Где вы находитесь?</p>
-      </div>
-      <div class="payA">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lamoda</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="lamoda.css">
+  <link rel="shortcut icon" href="images/lamoda.png" type="image/png">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/e117178abb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="location">
+      <img src="images/sent.png" alt="">
+      <p>Где вы находитесь?</p>
+    </div>
+    <div class="payA">
       <div class="dostavka">
         <img src="images/clothes.png" alt="">
         <p>Доставка с примеркой</p>
@@ -28,44 +33,112 @@
         <img src="images/payP.png" alt="">
         <p>Платите когда хотите</p>
       </div>
-      </div>
-      </div>
+    </div>
+  </div>
 
 
-      <div class="logoblock">
-        <div class="gender">
-          <p>Женщинам</p>
-          <p>Мужчинам</p>
-          <p>Детям</p>
-        </div>
-        <div class="logo">
-          <img src="images/lamoda.png" alt="">
-        </div>
-        <div class="logIn">
-          <p style="opacity: 0.5;">Войти</p>
-          <img src="https://img.icons8.com/fluent-systems-regular/50/000000/shopping-cart.png"/>
-          <p>Корзина</p>
-        </div>
-      </div>
+  <div class="logoblock">
+    <div class="gender">
+      <p>Женщинам</p>
+      <p>Мужчинам</p>
+      <p>Детям</p>
+    </div>
+    <div class="logo">
+      <img src="images/lamoda.png" alt="">
+    </div>
+    <div class="logIn">
+      <p style="opacity: 0.5;">Войти</p>
+      <img src="https://img.icons8.com/fluent-systems-regular/50/000000/shopping-cart.png" />
+      <p>Корзина</p>
+    </div>
+  </div>
 
-      <div class="categories">
-        <div class="somecat">
-          <p>Новинка</p>
-          <p>Одежда</p>
-          <p>Обувь</p>
-          <p>Аксессуары</p>
-          <p>Бренды</p>
-          <p>Premium</p>
-          <p>Спорт</p>
-          <p>Красота</p>
-          <p>Дом</p>
-          <p>Made in KZ</p>
-          <p>Sale%</p>
+  <div class="categories">
+    <div class="somecat">
+      <ul class="spisok1">
+        <li>Новинка</li>
+        <li>Одежда
+
+          <div class="spisok2">
+            <ul>
+              <b>Категории</b>
+              <li>Новинки</li>
+              <li>Брюки</li>
+              <li>Верхняя одежда</li>
+              <li>Джинсы</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+            </ul>
+
+          </div>
+
+        </li>
+        <li>Обувь
+          <div class="spisok2">
+            <ul>
+              <b>Категории</b>
+              <li>Новинки</li>
+              <li>Брюки</li>
+              <li>Верхняя одежда</li>
+              <li>Джинсы</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+              <li>Майки</li>
+            </ul>
+
+          </div>
+
+        </li>
+        <li>Аксессуары</li>
+        <li>Бренды</li>
+        <li>Premium</li>
+        <li>Спорт</li>
+        <li>Красота</li>
+        <li>Дом</li>
+        <li>Made in KZ</li>
+        <li class="saleRed">Sale%</li>
+      </ul>
+    </div>
+    <div class="searchX">
+      <input type="search" name="q" placeholder="Поиск по сайту">
+      <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+    </div>
+  </div>
+
+  <div class="Sales">
+    <div class="seasonSales">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/AA1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/black.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/AA2.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="search">
-          <input type="search" name="q" placeholder="Поиск по сайту">
-          <input type="submit" value="Найти">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-  </body>
+    </div>
+    <div class="collections">
+
+
+    </div>
+  </div>
+</body>
+
 </html>

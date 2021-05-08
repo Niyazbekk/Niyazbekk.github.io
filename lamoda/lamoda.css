@@ -3,12 +3,14 @@ body {
   margin: 0 auto;
   flex-direction: column;
 }
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 p {
   margin: 0;
 }
 .header p {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
 
@@ -59,7 +61,7 @@ p {
 }
 .gender p {
   margin-right: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 16px;
 }
 .logo {
@@ -81,15 +83,86 @@ p {
   width: 160px;
   height: 32px;
 }
+ul {
+  margin: 0;
+}
+li {
+  margin: 0;
+}
 .categories {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 50px;
+  align-items: center;
   justify-content: center;
+  font-size: 19px;
 }
 .somecat {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  margin-right: 150px;
+  font-size: 16px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right: 15px;
+  list-style: none;
+}
+li:hover {
+  color: black;
+}
+.saleRed{
+  color:red;
+}
+.spisok2 ul{
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+  position: absolute;
+  left: 0px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  padding-top: 15px;
+
+}
+.spisok2 ul li:nth-child(7){
+  padding-top: 50px;
+}
+li:hover .spisok2 ul{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  padding-left: 350px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+}
+.spisok2 ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: initial;
+  font-size: 13px;
+}
+.searchX i {
+  font-size: 20px;
+}
+.searchX button {
+  height: 30px;
+  margin-left: -4px;
+}
+.Sales {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.seasonSales{
+  width: 780px;
+  height: 600px;
+}
+.collections {
+  height: 353px;
+  width: 388px;
 }

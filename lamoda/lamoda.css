@@ -5,6 +5,7 @@ body {
 }
 *{
   font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
 }
 p {
   margin: 0;
@@ -138,6 +139,7 @@ li:hover .spisok2 ul{
   height: 250px;
   padding-left: 350px;
   box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+  z-index: 3;
 }
 .spisok2 ul li {
   margin-top: 10px;
@@ -151,9 +153,10 @@ li:hover .spisok2 ul{
 .searchX button {
   height: 30px;
   margin-left: -4px;
+  margin-bottom: 2px;
 }
 .Sales {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -161,8 +164,126 @@ li:hover .spisok2 ul{
 .seasonSales{
   width: 780px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.carouselExampleIndicators *{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.carousel-indicators button {
+  display:block;
+  border-radius: 50%;
+  border: 1px solid red;
+  z-index: 3;
+  border: 1px solid black; // Не получилось изменить кнопки , добавить фон в актив класс
+}
+.carousel-indicators {
+  z-index: 3;
+  position: relative;
+  top: 625px;
+
+}
+.whiteblock {
+  z-index: 2;
+  background-color: white;
+  width: 429px;
+  height: 73px;
+  position: relative;
+  bottom: 40px;
+  right: -170px;
+  text-align: center;
+}
+.active {
+  background: black;
+}
+.whiteblock p{
+  margin-top: 15px;
+}
+.whiteblock p:first-child{
+  font-size: 23px;
+  font-weight: 900;
+}
+.container {
+  position: relative;
+}
+.overlay {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  width: 97%;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay p {
+  margin-right: 30px;
+  background: white;
+  color: black;
+  font-size: 13px;
+  padding: 10px 70px;
+}
+.container:hover .overlay{
+  opacity: 1;
 }
 .collections {
   height: 353px;
   width: 388px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.collections img {
+  width: 100%;
+  height: 100%;
+}
+.collections .whiteblock{
+  right: -10px;
+  width: 346px;
+  height: 89px;
+  padding-top: 1px;
+}
+.collections .overlay{
+  height: 72%;
+  width: 94%;
+  bottom: 90px;
+}
+.actual {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  justify-content: center;
+  align-items:
+
+}
+.act{
+  display: flex;
+  justify-content: center;
+}
+.actclothes {
+  width: 1206px;
+  height: 264;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.conClothes{
+  width: 201px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.actclothes img{
+  width: 120px;
+  height: 120px;
 }

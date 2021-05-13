@@ -42,9 +42,17 @@ while(year != 2017){
     alert(`Попробуй еще раз!`);
   }
 }*/
-function showMessage(from, text) { // аргументы: from, text
-  alert(from + ': ' + text);
-}
+/* .contains
+   .closest
+   .classList
+   Как скрыть по содержимому html тэга (kinopoisk)
+   Как скрыть по содержимому аттрибута
+*/
 
-showMessage('Астана', '+15'); // Аня: Привет! (*)
-showMessage('Алматы', '+20'); // Аня: Как дела? (**)
+document.querySelector('.hider').onclick = function() {
+  document.querySelector('.pictureContainer').classList.remove('hide');
+};
+
+document.querySelector('.fighter').onclick = function() {
+  document.querySelector('.pictureContainer').classList.add('hide');
+};

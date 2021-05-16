@@ -56,3 +56,7 @@ document.querySelector('.hider').onclick = function() {
 document.querySelector('.fighter').onclick = function() {
   document.querySelector('.pictureContainer').classList.add('hide');
 };
+
+document.querySelector('.closeBut').onclick = function() {
+  document.querySelector('.footer').classList.add('hide');
+};

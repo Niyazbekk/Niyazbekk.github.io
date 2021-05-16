@@ -431,3 +431,12 @@ span img {
 .hide {
   display: none;
 }
+.closeBut {
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+.closeBut button {
+  font-size: 20px;
+  color: white;
+}

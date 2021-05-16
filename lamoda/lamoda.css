@@ -28,8 +28,7 @@ p {
   height: 24px;
   margin-right: 7px;
 }
-.headerContent {
-}
+
 .location {
   display: flex;
   flex-direction: row;
@@ -171,12 +170,13 @@ li:hover .spisok2 ul{
   height: 100%;
   z-index: 1;
 }
+
 .carousel-indicators button {
   display:block;
   border-radius: 50%;
   border: 1px solid red;
   z-index: 3;
-  border: 1px solid black; // Не получилось изменить кнопки , добавить фон в актив класс
+  border: 1px solid black; /* Не получилось изменить кнопки , добавить фон в актив класс*/
 }
 .carousel-indicators {
   z-index: 3;
@@ -380,10 +380,21 @@ li:hover .spisok2 ul{
   height: 100%;
   margin-left: 20px;
 }
-.secondscr{
+.secondscr {
   top: 2070px;
   right: 265px;
   font-size: 50px;
   height: 56px;
   position: absolute;
+}
+.actBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.actBar img {
+  width: 388px;
+  height: 430px;
+
 }

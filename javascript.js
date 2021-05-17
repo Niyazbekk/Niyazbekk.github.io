@@ -60,3 +60,13 @@ document.querySelector('.fighter').onclick = function() {
 document.querySelector('.closeBut').onclick = function() {
   document.querySelector('.footer').classList.add('hide');
 };
+
+
+var el = document.querySelectorAll(".desktop-rating-selection-film-item p")
+
+const ext = ["Зеленая книга"];
+
+el.forEach(el =>
+  ext.includes(el.innerText) &&
+  el.closest(".desktop-rating-selection-film-item").setAttribute("style", "visibility: hidden;")
+)

@@ -62,11 +62,12 @@ document.querySelector('.closeBut').onclick = function() {
 };
 
 
+
+
+
 var el = document.querySelectorAll(".desktop-rating-selection-film-item p")
-
 const ext = ["Зеленая книга"];
-
 el.forEach(el =>
   ext.includes(el.innerText) &&
-  el.closest(".desktop-rating-selection-film-item").setAttribute("style", "visibility: hidden;")
+  el.closest(".desktop-rating-selection-film-item").setAttribute("style", "display: none;")
 )

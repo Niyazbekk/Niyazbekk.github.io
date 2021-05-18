@@ -2,6 +2,7 @@ body {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  align-items: center;
 }
 *{
   box-sizing: border-box;
@@ -327,6 +328,8 @@ li:hover .spisok2 ul{
 }
 .scr p{
   font-size: 50px;
+  position: relative;
+  top: -4px;
 }
 .leftScr {
   left: 30px;
@@ -335,6 +338,7 @@ li:hover .spisok2 ul{
 .rightScr{
   right: 30px;
   z-index: 3;
+
 }
 .leftScr:hover{
   background-color: #33B2FF;
@@ -352,23 +356,22 @@ li:hover .spisok2 ul{
   align-items: center;
 
 }
-.popular .textpop:first-child {
+.textpop{
   display: flex;
   justify-content: flex-start;
   text-align: left;
   width: 70%;
   font-size: 21px;
   font-weight: 900;
-  margin-left: 190px;
+  margin-left: -320px;
 }
 .popularClothes{
   z-index: 1;
   width: 1206px;
-  height: 504px;
+  height: 375px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 70px;
 }
 .popularClothes img{
   z-index: 1;
@@ -382,19 +385,175 @@ li:hover .spisok2 ul{
 }
 .secondscr {
   top: 2070px;
-  right: 265px;
+  right: 305px;
   font-size: 50px;
   height: 56px;
   position: absolute;
 }
 .actBar {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1200px;
+  height: 528px;
 }
 .actBar img {
   width: 388px;
   height: 430px;
+}
+.actImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: 20px;
+}
+.actText {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width: 70%;
+  font-size: 21px;
+  font-weight: 900;
+  margin-left: -320px;
+}
+.imgAct h5 {
+  text-align: center;
+  margin-top: 18px;
+}
+.imgAct p {
+  text-align: center;
+  color: #888;
+}
+.imgAct .overlay {
+  top: 0px;
+  height: 85%;
+  width: 94%;
+}
+.details img {
+  width: 285px;
+  height: 285px;
+}
+.details .overlay {
+  width: 92%;
+  height: 74%;
+}
+.details h5 {
+  margin-top: 20px;
+}
+.skidki {
+  width: 1200px;
+  padding-top: 104px;
+  padding-bottom: 104px;
+  background-color: #F5F5F5;
+}
+.skidki img{
+  width: 1200px;
+  height: 400px;
+}
+.skidki:hover{
+  opacity: 0.7;
+}
+.skidki .carousel-indicators {
+  top: 470px;
 
+}
+.skidki .carousel-indicators button {
+  display:block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid red;
+  z-index: 3;
+  border: 1px solid black;
+  margin-left: 15px;
+}
+.carouselExampleDark {
+  width: 1200px;
+  height: 400px;
+}
+.footerFirst {
+  border-top: 1px solid #E5E5E5;
+  width: 100%;
+  height: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerFirst img{
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skidka{
+  width: 635px;
+  height: 134px;
+  margin: 68px 650px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.skidkaText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.skidkaText input{
+  width: 275px;
+  height: 30px;
+}
+.skidkaText p {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.buttonS .btn {
+  background-color: #e5e5e5;
+  border: 0px;
+  height: 33px;
+  margin-bottom: 4px;
+}
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1220px;
+  height: 328px;
+  font-size: 13px;
+}
+.help ul {
+  margin-right: 50px;
+}
+.help ul li ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: -32px;
+  margin-top: 15px;
+}
+.country {
+  border-top: 1px solid #E5E5E5;
+  border-bottom:1px solid #E5E5E5;
+  height: 57px;
+  width: 100%;
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+}
+.contText {
+  margin-top: 15px;
+  width: 1240px;
+  font-size: 13px;
+}
+.about h1{
+  font-size: 24px;
+}
+.about {
+  display: flex;
+  width: 1240px;
+  height: 376px;
 }

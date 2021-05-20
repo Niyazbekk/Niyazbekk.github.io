@@ -116,21 +116,20 @@ li:hover {
 .saleRed{
   color:red;
 }
-.spisok2 ul{
+.list2 ul{
   display: none;
   position: absolute;
   padding-top: 20px;
-  position: absolute;
   left: 0px;
   flex-wrap: wrap;
   margin-top: 5px;
   padding-top: 15px;
 
 }
-.spisok2 ul li:nth-child(7){
+.list2 ul li:nth-child(7){
   padding-top: 50px;
 }
-li:hover .spisok2 ul{
+li:hover .list2 ul{
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -140,7 +139,7 @@ li:hover .spisok2 ul{
   box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
   z-index: 3;
 }
-.spisok2 ul li {
+.list2 ul li {
   margin-top: 10px;
   margin-bottom: 10px;
   list-style-type: initial;
@@ -305,13 +304,16 @@ li:hover .spisok2 ul{
 }
 
 /*https://codepen.io/anon/pen/dWWaLq*/
-.conClothes:hover{
-  opacity: 0.5;
-}
-.conClothes:hover img{
+.conClothes img:hover{
   opacity: 1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  transition: 0.3s;
 }
-
+.conClothes img:hover :{
+  opacity: 0.5;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  transition: 0.3s;
+}
 
 
 .scr {
@@ -425,7 +427,6 @@ li:hover .spisok2 ul{
 }
 .imgAct p {
   text-align: center;
-  color: #888;
 }
 .imgAct .overlay {
   top: 0px;
@@ -453,7 +454,7 @@ li:hover .spisok2 ul{
   width: 1200px;
   height: 400px;
 }
-.skidki:hover{
+.skidki .active:hover{
   opacity: 0.7;
 }
 .skidki .carousel-indicators {
@@ -477,7 +478,6 @@ li:hover .spisok2 ul{
 .footerFirst {
   border-top: 1px solid #E5E5E5;
   width: 100%;
-  height: 676px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -490,7 +490,7 @@ li:hover .spisok2 ul{
   align-items: center;
   justify-content: center;
 }
-.skidka{
+.discount{
   width: 635px;
   height: 134px;
   margin: 68px 650px;
@@ -499,16 +499,16 @@ li:hover .spisok2 ul{
   align-items: center;
   justify-content: center;
 }
-.skidkaText {
+.discountText {
   display: flex;
   flex-direction: column;
   margin-left: 24px;
 }
-.skidkaText input{
+.discountText input{
   width: 275px;
   height: 30px;
 }
-.skidkaText p {
+.discountText p {
   font-size: 13px;
   margin-top: 8px;
 }
@@ -523,7 +523,6 @@ li:hover .spisok2 ul{
   flex-direction: column;
   align-items: center;
   width: 1220px;
-  height: 328px;
   font-size: 13px;
 }
 .help ul {
@@ -543,17 +542,125 @@ li:hover .spisok2 ul{
   display: flex;
   margin-left: 50px;
   justify-content: center;
+  margin-top : 15px;
 }
 .contText {
   margin-top: 15px;
+  margin-bottom: 15px;
   width: 1240px;
   font-size: 13px;
+  margin-left: 30px;
 }
 .about h1{
   font-size: 24px;
+  margin-left: 40px;
 }
 .about {
   display: flex;
   width: 1240px;
   height: 376px;
+  flex-direction: column;
+}
+.aboutBut {
+  margin-left: 10px;
+}
+.aboutBut li{
+  border: 1px solid #888;
+  margin: 0;
+  padding: 0 15px;
+  opacity: 0.6;
+}
+.about li:hover {
+  opacity: 1;
+}
+.about ul li:last-child {
+  background-color: #000;
+  color: white;
+}
+.aboutText{
+  margin-left: 40px;
+}
+.aboutText p {
+  margin: 4px 0;
+  font-size: 11px;
+}
+.aboutText h2 {
+  margin: 13px 0 7px;
+  font-size: 13px;
+}
+.footerPartners {
+  height: 295px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerPartners p {
+  margin-top: 10px;
+  font-size: 13px;
+  color : #AAAA;
+}
+.achivements {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 16px;
+}
+.partners {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footerPartners img{
+  margin: 0 20px;
+  width: 107px;
+  height: 26px;
+}
+.friendsImg img{
+  width: 121px;
+  height: 37px;
+  margin-top: 20px;
+}
+.footerCoockies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  left: 0; bottom: 0;
+  background-color: #000000d9;
+  opacity: 0.95;
+  padding-top: 20px;
+  z-index: 4;
+}
+.cookiesText {
+  width: 674px;
+  height: 32px;
+  font-size: 13px;
+  color: white;
+}
+.btn-outline-secondary {
+  border-color: white;
+  color: white;
+}
+.hide {
+  display: none;
+}
+.list3 ul{
+  font-size: 13px;
+  display: none;
+  position: absolute;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.contText:hover .list3 ul{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 119.3px;
+  height: 96px;
+  padding-top: 10px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+  z-index: 3;
 }

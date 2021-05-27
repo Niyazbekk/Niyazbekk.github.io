@@ -34,6 +34,8 @@ p {
   display: flex;
   flex-direction: row;
   margin-right: 478px;
+  height: 40px;
+  align-items: center;
 }
 .payA {
   display: flex;
@@ -42,7 +44,9 @@ p {
 .dostavka,.pay,.certificate  {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  height: 40px;
+  align-items: center;
+  width: 200px;
 }
 .pay p{
   color: #f93c00;
@@ -663,4 +667,97 @@ li:hover .list2 ul{
   padding-top: 10px;
   box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
   z-index: 3;
+}
+.logInText {
+  opacity: 0.5;
+}
+.logInText:hover {
+  opacity: 1;
+}
+.shopCart {
+  opacity: 0.5;
+}
+.shopCart:hover {
+  opacity: 1;
+}
+.list4 {
+  list-style: none;
+  display: none;
+  position: absolute;
+  flex-wrap: wrap;
+}
+.detailTextHeader{
+  margin-top: 40px;
+}
+.dostavka:hover {
+  background-color: #2796ff;
+}
+.dostavka:hover .list4{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  background-color: white;
+  z-index: 3;
+  font-size: 12px;
+  width: 250px;
+  background-color: #fff;
+  color: black;
+  padding-top: 15px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+}
+.certificate:hover {
+  background-color: #2796ff;
+}
+.certificate:hover .list4{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 1120px;
+  background-color: white;
+  z-index: 3;
+  font-size: 12px;
+  width: 230px;
+  background-color: #fff;
+  color: black;
+  padding-top: 15px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+}
+.pay:hover {
+  background-color: #2796ff;
+}
+.pay:hover .list4{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: 1320px;
+  background-color: white;
+  z-index: 3;
+  font-size: 12px;
+  width: 230px;
+  background-color: #fff;
+  color: black;
+  padding-top: 15px;
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+}
+.location:hover {
+  background-color: #2796ff;
+}
+.location:hover .list4{
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  padding-top: 10px;
+  left: 315px;
+  background-color: white;
+  z-index: 3;
+  font-size: 22px;
+  width: 230px;
+  background-color: #fff;
+  color: black;
 }

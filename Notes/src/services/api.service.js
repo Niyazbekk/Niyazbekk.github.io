@@ -43,4 +43,4 @@ async function useRequest(request) {
   return await response.json()
 }
 
-export const apiService = new ApiService('https://nopo-42a6d-default-rtdb.firebaseio.com')
+export const apiService = new ApiService('https://notes-f87ec-default-rtdb.europe-west1.firebasedatabase.app')

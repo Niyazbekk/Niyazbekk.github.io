@@ -15,5 +15,6 @@ function convert(){
         }
     } else {
         alert("Enter the numberd not string and not negative number")
+        alert("Somes aadadddss")
     }
 }

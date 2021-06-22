@@ -30,7 +30,7 @@ async function submitHandler(event) {
 
     await apiService.createPost(formData)
     this.form.clear()
-    if (formData.type == news) {
+    if (formData.type == "news") {
       alert('Новость создана в базе данных')
     }
     else {

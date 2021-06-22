@@ -14,6 +14,6 @@ function convert(){
             document.getElementById("ans").innerHTML = (num * 6) + " ₽"
         }
     } else {
-        alert("Enter the numberd not string and not negative num")
+        alert("Enter the numberd not string and not negative number")
     }
 }

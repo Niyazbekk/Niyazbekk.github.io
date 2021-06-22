@@ -36,7 +36,21 @@ optgroup {
   margin-left: 5px;
 }
 @media all {
+}
+
+.radio_but {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.radio_but label {
+  margin: 0 12px ;
+}
+
+.answ {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
+  font-size: 50px;
 }

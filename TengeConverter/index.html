@@ -17,14 +17,21 @@
       <p>Enter the number</p>
     </div>
     <div class="buttons">
-      <input type="text" class="teng" placeholder="Enter the number" name="tenge" required>
-      <select>
-      <optgroup label="Currency">
-        <option value="html">Dollars</option>
-        <option value="css">Pounds</option>
-      </optgroup>
-      </select>
-      <button class="convert" type="button" name="convert">Convert</button>
+      <input type="text" id="teng" placeholder="Enter the number" name="tenge" required>
+
+      <div class="radio_but">
+      <input type="radio" id="dollars" name="input_cur" value="Dollar" checked>
+      <label for="d">Dollar</label><br>
+      <input type="radio" id="eur" name="input_cur" value="EURO">
+      <label for="p">EURO</label><br>
+      <input type="radio" id="rub_r" name="input_cur" value="RUB">
+      <label for="r">RUB</label>
+      </div>
+      <button class="convert" type="button" name="convert" onclick="convert()">Convert</button>
+    </div>
+
+    <div class="answ">
+      <p id="ans"></p>
     </div>
   </div>
 

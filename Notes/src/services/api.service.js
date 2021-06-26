@@ -15,6 +15,18 @@ class ApiService {
     }
   }
 
+  async deletePost(remove) {
+    try {
+      const request = new Request(this.url + '/posts.json', {
+        method: 'delete',
+        body: JSON.stringify(remove)
+      })
+      return useRequest(request)
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
   async fetchPosts() {
     try {
       const request = new Request(`${this.url}/posts.json`, {

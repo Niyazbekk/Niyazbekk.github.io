@@ -9,12 +9,6 @@ module.exports = {
   devServer: {
     contentBase: __dirname + '/dist'
   },
-  plugins: [
-    new HTMLPlugin({
-      filename: 'index.html',
-      template: './src/index.html'
-    })
-  ],
   resolve: {
     extensions: ['.js']
   },

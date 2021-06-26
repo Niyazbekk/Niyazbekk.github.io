@@ -12,7 +12,7 @@ export class PostsComponent extends Component {
   init() {
     this.$el.addEventListener('click', buttonHandler.bind(this))
   }
-  
+
   async onShow() {
     this.loader.show()
     const fbData = await apiService.fetchPosts()
@@ -35,7 +35,9 @@ function buttonHandler(event) {
   if (id) {
     let favorites = JSON.parse(localStorage.getItem('favorites')) || []
     const candidate = favorites.find(p => p.id === id)
-    
+
+    //Стереть элемент
+
     if (candidate) {
       // удалить элемент
       $el.textContent = 'Сохранить'

@@ -18,7 +18,7 @@ class ApiService {
   async deletePost(remove) {
     try {
       const request = new Request(this.url + '/posts.json', {
-        method: 'delete',
+        method: 'DELETE',
         body: JSON.stringify(remove)
       })
       return useRequest(request)

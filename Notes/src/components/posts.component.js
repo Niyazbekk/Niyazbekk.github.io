@@ -26,7 +26,13 @@ export class PostsComponent extends Component {
     this.$el.innerHTML = ''
   }
 }
+function deleteBut(){
+  const formData = {
+    type: this.$el.type.value,
+  }
+  apiService.deletePost(formData)
 
+}
 function buttonHandler(event) {
   const $el = event.target
   const id = $el.dataset.id

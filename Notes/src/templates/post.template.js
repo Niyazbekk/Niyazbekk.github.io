@@ -24,7 +24,7 @@ export function renderPost(post, options = {}) {
       <div class="panel-footer w-panel-footer">
         <small>${post.date}</small>
         ${options.withButton ? button : ''}
-        <small><button class="button-round button-small button-danger " data-id="${post.id}" data-title="${post.title}  onclick="deleteBut()"">Удалить</button><small>
+        <small><button class="button-round button-small button-danger " data-id="${post.id}" data-title="${post.title}"  onclick="deleteBut()"">Удалить</button><small>
       </div>
     </div>
   `
